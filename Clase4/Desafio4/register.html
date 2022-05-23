@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/estilosDesafio3.css">
+    <title>Register</title>
+</head>
+<body>
+    <header>
+
+        <a style="color: crimson;" href="./desafio4.html" target="_blank"><em><strong>El Calentamiento Global</strong></em> </a>
+    </header>
+    <main>
+        <h1 style="color: white; text-align: center">Registrate en nuestro sitio</h1>
+        <form action="" method="post" style="text-align: center">
+            <span class="spanForm">Indica tu Nombre</span>
+            <input type="text" name="nombre" id="" placeholder="Nombre..." required> <br>
+            <span class="spanForm">Indica tu Apellido</span>
+            <input type="text" name="apellido" id="" placeholder="Apellido..." maxlength="10"> <br>
+            <span class="spanForm">
+                Contraseña:
+            </span>
+            <input type="password" name="clave" id="" placeholder="Ingresa tu clave" required> <br>
+            <span class="spanForm">
+                Correo:
+            </span>
+            <input type="text" name="correo" id="" name="correo" placeholder="Escribe tu correo" required> <br>
+
+            <span class="spanForm">Selecciona tu Genero</span> <br>
+            <select name="Genero" id="">
+                <option value="1">Femenino</option>
+                <option value="2">Masculino</option>
+            </select> <br> <br>
+
+            <span class="spanForm">Indica tus preferencias</span> <br>
+            <div style="display:flex; justify-content: center;">
+               <div style="display:flex; justify-content:spacen-around; width: 150px">
+               <input type="checkbox" name="leer" value="1" id=""> <span class="spanCheckbox">Leer</span>  <br> 
+                </div>  
+            </div>
+            <div style="display:flex; justify-content: center;">
+                <div style="display:flex; justify-content:spacen-around; width: 150px">
+                    <input type="checkbox" name="aireLibre" value="1" id=""> <span class="spanCheckbox">Estar al aire libre</span>  <br>
+                 </div>  
+            </div>
+            <div style="display:flex; justify-content: center;">
+                <div style="display:flex; justify-content:spacen-around; width: 150px">
+                    <input type="checkbox" name="pelicula" value="1" id=""> <span class="spanCheckbox">Ver television</span>  <br>
+                 </div>  
+            </div>
+            <div style="display:flex; justify-content: center;">
+                <div style="display:flex; justify-content:spacen-around; width: 170px">
+                    <input type="checkbox" name="Salir" value="1" id=""> <span class="spanCheckbox">Compartir con Amigos</span>  <br>
+                 </div>  
+            </div> <br>
+            
+
+            <spa class="spanForm">Indica tu Estado Civil</spa> <br>
+            <input type="radio" name="Estado Civil" value="1" id="">
+            <span class="spanCheckbox">Soltero(a)</span>
+            <br>
+            <input type="radio" name="Estado Civil" value="2" id="">
+            <span class="spanCheckbox">Casado(a)</span> <br>
+            <input type="radio" name="Estado Civil" value="3" id="">
+            <span class="spanCheckbox">Divorviado(a)</span> <br>
+            <input type="radio" name="Estado Civil" value="4" id="">
+            <span class="spanCheckbox">Viudo(a)</span> <br>
+
+            <input type="submit" value="Enviar Formulario" id="submitRegister">
+            <input type="reset" value="Limpiar" class="botonesForm">
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Orbitron';
+    src: url("rules-to-specify-families");
+}
+@font-face {
+    font-family: 'Monserrat Alternates';
+    src: url("rules-to-specify-families");
+}
+#lista{
+    font-family: 'Orbitron';
+    color: rgb(0, 0, 0);
+    word-spacing: 5px;
+    line-height: 3rem;
+    font-weight: 900;
+    text-indent: 1rem;
+}
+
+body{
+    font-family: 'Monserrat Alternates';
+    background: linear-gradient(rgb(246, 141, 141), rgb(141, 36, 141), white);
+}
+h1{
+    text-align: center;
+    border-bottom: white solid 4px;
+}
+ul{
+    font-size: 100%;
+}
+ol{
+    font-size: 100%;
+}

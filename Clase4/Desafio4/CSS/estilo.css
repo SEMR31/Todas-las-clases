@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+/*HEADER*/
+header{
+    background-color: black;
+    height: 300px;
+    text-align: center;
+}
+
+/*main*/
+
+/*section de articulos*/
+.articleSec{
+    width: 20%;
+    display: inline-block;
+    height: 300px;
+}
+h1{
+    color: white;
+}
+h2{
+    color: #43c4e4;
+}
+h3{
+    color: #d75187;
+}
+p{
+    color: rgb(255, 255, 255);
+    width: 280px;
+    text-align: initial;
+    display: inline-block;
+}
+#sectio3{
+    display: inline-flex;
+    /*display: inline-block;*/
+    
+}
+ul{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    display: inline-block;
+}
+#section4{
+    color: rgb(144, 20, 20);
+    height: 100px;
+}
+nav{
+    text-align: center;
+}    
+.spanNav{
+    color: aliceblue;
+    margin-right: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.spanNav:hover{
+    border-bottom: white solid 3px;
+}

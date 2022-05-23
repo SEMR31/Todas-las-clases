@@ -1,0 +1,110 @@
+@font-face{
+
+    font-family: 'Diney';
+    src: url(../Fuentes/waltographUI.ttf);
+
+}
+@font-face{
+
+    font-family: 'TipoCursiva';
+    src: url(../Fuentes/BackstrangerThinItalic.ttf);
+
+}
+
+body{
+    background-color: #151515;
+    margin: 0;
+        font-family: 'Segoe UI';
+
+}
+/*HEADER*/
+header{
+    background: linear-gradient(to left top, red, blue);
+    background-color: #323232;
+    height: 100px;
+}
+#divLogo{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}    
+.spanNav{
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 20px;
+    text-transform: lowercase;
+}
+.spanNav:hover{
+    /*text-decoration: underline;*/
+    border-bottom: white solid 3px;
+}
+
+/*main*/
+
+h1{
+    font-family: 'TipoCursiva';
+    background: linear-gradient(to right, red, blue);
+}
+
+/*section de articulos*/
+#section2{
+    background-color: white;
+    text-align: center;
+}
+.articleSection{
+    width: 20%;
+    display: inline-block;
+    height: 300px;
+    text-align: left;
+}
+.imgArticle{
+    width: 280px;
+    height: 200px;
+}
+.imgArticle:hover{
+    cursor: pointer;
+}
+h4{
+    color: #959595;
+    text-transform: capitalize;
+}
+.pArticle{
+    font-weight: bold;
+   
+}
+/*section de listas*/
+#listas{
+    height: 300 px;
+}
+.articlesListas{
+    color: white;
+    width: 49.7%;
+    height: 300px;
+    display: inline-block;
+    font-style: italic;
+    word-spacing: 4px;
+    line-height: 3rem;
+}
+#tabla{
+
+    color: white;
+}
+.imgTabla{
+    width: 20px;
+    height: 20px;
+}
+tr{
+    height: 50px;
+}
+th, td{
+    padding: 1em;
+    text-shadow: #00f919 2px 2px 2px ;
+}
+table{
+    margin: 0 auto;
+    background-image: url(../img/dsmm_0502_com_mas_mob_01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/marvel.css">
+    <title>Login de Marvel</title>
+</head>
+<body>
+    <header>
+        <div id="divLogo">
+            <a href="./marvel.html">
+                <img  src="https://i.annihil.us/u/prod/marvel/images/mu/web/2021/marvel_insider-topnav-logo.png" alt="LOGO DE MARVEL"> 
+            </a>
+            
+        </div>
+        <nav>
+            <a class="spanNav" href="./index.html" target="_blank">VIDEOS</a>
+            <a class="spanNav" href="">CARACTERES</a>
+            <a class="spanNav" href="">COMICS</a>
+            <a class="spanNav" href="">MOVIES</a>
+            <a class="spanNav" href="#tvShows">TV SHOWS</a>
+            <a class="spanNav" href="">GAME</a>
+            <a class="spanNav" href="https://www.marvel.com/articles" target="_blank">NEWS</a>
+            <a class="spanNav" href="">MORE</a>
+            <a class="spanNav" href="./loginMarvel.html">LOGIN</a>
+            <a class="spanNAv" href="">REGISTRO</a>
+        </nav>
+        
+    </header>
+    <main>
+        <h1 style="color: white; text-align: center">Registrate en nuestro sitio</h1>
+        <form action="" method="post" style="text-align: center">
+            <span class="spanForm">Indica tu Nombre</span>
+            <input type="text" name="nombre" id="" placeholder="Nombre..." required minlength="10"> <br>
+            <span class="spanForm">
+                Correo:
+            </span>
+            <input type="text" name="correo" id="" name="correo" placeholder="Escribe tu correo" required> <br>
+            <span class="spanForm">
+                Contraseña:
+            </span>
+            <input type="password" name="clave" id="" placeholder="Ingresa tu clave" required> <br>
+            <span class="spanForm">Indica tus preferencias</span> <br>
+            <div style="display:flex; justify-content: center;">
+               <div style="display:flex; justify-content:spacen-around; width: 150px">
+               <input type="checkbox" name="Spaide" value="1" id=""> <span class="spanCheckbox">Spaider-Man</span>  <br> 
+                </div>  
+            </div>
+            <div style="display:flex; justify-content: center;">
+                <div style="display:flex; justify-content:spacen-around; width: 150px">
+                    <input type="checkbox" name="hulk" value="1" id=""> <span class="spanCheckbox">Hulk</span>  <br>
+                 </div>  
+            </div>
+            <div style="display:flex; justify-content: center;">
+                <div style="display:flex; justify-content:spacen-around; width: 150px">
+                    <input type="checkbox" name="Groot" value="1" id=""> <span class="spanCheckbox">Groot</span>  <br>
+                 </div>  
+            </div>
+            <div style="display:flex; justify-content: center;">
+                <div style="display:flex; justify-content:spacen-around; width: 150px">
+                    <input type="checkbox" name="iron" value="1" id=""> <span class="spanCheckbox">Iron Man</span>  <br>
+                 </div>  
+            </div> <br>
+
+            <span class="spanForm">Selecciona tu Ciudad</span> <br>
+            <select name="ciudad" id="">
+                <option value="1">Barquisimeto</option>
+                <option value="2">Caracas</option>
+                <option value="3">Acarigua</option>
+                <option value="4">Valencia</option>
+                <option value="5">Maracaibo</option>
+                <option value="6">Maracay</option>
+                <option value="7">Falcon</option>
+            </select> <br> <br>
+
+            <spa class="spanForm">Indica tu gener</spa> <br>
+            <input type="radio" name="genero" value="1" id="">
+            <span class="spanCheckbox">Masculino</span>
+            <br>
+            <input type="radio" name="genero" value="2" id="">
+            <span class="spanCheckbox">Femenino</span> <br>
+
+            <span class="spanForm">Indica tu alianza</span> <br>
+            <input type="radio" name="alianza" value="1" id="">
+            <span class="spanCheckbox">Avengers</span> <br>
+            <input type="radio" name="alianza" value="2" id="">
+            <span class="spanCheckbox">X-Men</span> <br>
+            <input type="radio" name="alianza" value="3" id="">
+            <span class="spanCheckbox">4 Fantasticos</span> <br>
+            <input type="radio" name="alianza" value="4" id="">
+            <span class="spanCheckbox">Guardianes de la Galaxia</span> <br>
+            <input type="radio" name="alianza" value="5" id="">
+            <span class="spanCheckbox">Los Eternals</span> <br>
+            <input type="radio" name="alianza" value="6" id="">
+            <span class="spanCheckbox">Los Defenders</span> <br>
+            <input type="radio" name="alianza" value="7" id="">
+            <span class="spanCheckbox">Los Iluminati</span> <br>
+          
+            <span class="spanForm">Cuentanos acerca de ti</span> <br>
+            <textarea name="Cuentanos" id="" cols="55" rows="7"></textarea> <br>
+
+            <input type="checkbox" name="DeAcuerdo" id="">
+            <span class="spanCheckbox">Estas deacuerdo con nuestras Politicas</span> <br> <br>
+
+            <span class="spanForm">Selecciona tu color</span>
+            <input type="color" name="" id=""> <br>
+            <span class="spanForm">Ingresa tu fecha de Nacimiento</span> <br>
+            <input type="date" name="born" id=""> <br>
+            <span class="spanForm">Ingresa un correo de recuperacion</span>
+            <input type="email" name="email" id="" required placeholder="email" maxlength="12"> <br>
+            <span class="spanForm">Carga tu imagen de Perfil</span><br>
+            <input type="file" name="avatar" id=""> <br>
+            <span class="spanForm">Ingresa tu numero</span> <br>
+            <input type="number" name="numero" id=""> <br>
+            <span class="spanForm">Selecciona la hora</span> <br>
+            <input type="time" name="hora" id=""> <br>
+            
+
+            <input type="hidden" name="oculto" value="Fecha de hoy"> <br>
+
+            <input type="text" name="lectura" id="" readonly value="No lo puedes editar"> <br><br>
+
+
+            <input type="submit" value="Registrarse" id="submitRegister"><br>
+            <input type="reset" value="Limpiar Campos" class="botonesForm"> <br>
+            <input type="button" value="Botn" class="botonesForm">
+        </form>
+    </main>
+</body>
+</html>
